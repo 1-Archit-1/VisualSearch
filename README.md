@@ -27,12 +27,12 @@ pip install torch torchvision transformers opencv-python pillow yt-dlp youtube-s
 ## Usage
 
 1. Place your reference image in the project root
-2. Edit `script1.py` and set `REFERENCE_IMAGE_PATH` to your image filename
+2. Edit `script.py` and set `REFERENCE_IMAGE_PATH` to your image filename
 3. Edit the `QUERIES` list to match whatever you're searching for
 4. Run it:
 
 ```bash
-python script1.py
+python script.py
 ```
 
 Results are saved to the configured `OUTPUT_FILE` and the best frame thumbnails go into the `FRAMES_DIR` folder.
